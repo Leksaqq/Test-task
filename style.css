@@ -1,0 +1,48 @@
+html {
+	padding-top: 25px;
+	/*background-image: url(black2.png);*/
+	background-color: #953434;
+}
+body {
+	width: 70%;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+	background-color: #e1edeb;
+}
+#navigation li {
+	display: inline-block;
+	margin-top: 20px;
+	border-left:2px solid #bbb;
+	padding: 0 0 5px 20px;
+	margin: 10px 10px 10px;
+}
+#navigation li:first-child {
+	border: none;
+}
+#navigation ul {
+	text-align: center;
+}
+div.submit {
+	text-align: right;
+	padding: 0px 100px 0px 0px;
+	margin-top: -50px;
+}
+table {
+	margin-top: 50px;
+	margin-left: 20%;
+}
+
+th {
+	background: #BABDB6FF;
+	padding: 20px;
+	/*margin: 10px, 20px, 30px, 40px;
+}
+
+td {
+	background: #79C; /* Цвет фона 
+    border: 1px solid #333; /* Граница вокруг ячеек */
+    empty-cells: show; /* Прячем пустые ячейки */
+    padding: 30px; /* Поля в ячейках */ 
+}
